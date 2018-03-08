@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Switch</string>
+    <string name="switch_on_off">Switch On / Off</string>
+    <string name="check_box">Check box</string>
+    <string name="radio_button">Radio Button</string>
+    <string name="radiobutton2">RadioButton2</string>
+</resources>

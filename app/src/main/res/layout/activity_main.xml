@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch_id"
+        android:layout_margin="16dp"
+        android:text="@string/switch_on_off"
+        android:theme="@style/SwitchTheme"
+        android:checked="false"
+        />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox_id"
+        android:layout_below="@+id/switch_id"
+        android:text="@string/check_box"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:checked="false"
+        android:theme="@style/SwitchTheme"/>
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup_id"
+        android:layout_below="@+id/checkbox_id">
+
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RadioButton1_id"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/radio_button"
+        android:theme="@style/SwitchTheme"
+        android:checked="false"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RadioButton2_id"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/radiobutton2"
+        android:theme="@style/SwitchTheme"
+        android:checked="false"/>
+
+    </RadioGroup>
+
+
+
+
+
+
+</RelativeLayout>
